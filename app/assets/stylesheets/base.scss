@@ -1,0 +1,21 @@
+body {
+  margin-top: 100px;
+  background-color: #fbfbfb;
+}
+
+@media(min-width: 768px) {
+  body {
+    margin-top: 50px;
+  }
+}
+
+#main {
+  padding-left: 0;
+}
+
+@media(min-width: 768px) {
+  #main {
+    padding-left: 225px;
+    padding-right: 100px;
+  }
+}

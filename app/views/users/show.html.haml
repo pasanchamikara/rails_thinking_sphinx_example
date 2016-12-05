@@ -1,0 +1,11 @@
+%h1 User Details
+
+%p
+  %strong Name:
+  = @user.name
+
+%p
+  %strong Phone Number:
+  = @user.phone_number
+
+= link_to 'Back', users_path

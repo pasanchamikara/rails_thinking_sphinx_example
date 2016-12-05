@@ -1,0 +1,15 @@
+%h1 Edit User
+
+= form_for :user, url: user_path(@user), method: :patch do |f|
+
+  .form-group
+    = f.label :name
+    = f.text_field :name, class: 'form-control'
+
+  .form-group
+    = f.label :phone_number
+    = f.text_field :phone_number, class: 'form-control'
+
+  = f.submit "Update", class: 'btn btn-primary'
+
+= link_to 'Back', users_path
