@@ -14,8 +14,3 @@
 
 # credentials
 /config/database.yml
-/config/secrets.yml
-/config/sunspot.yml
-
-# solr
-/solr
